@@ -1,10 +1,23 @@
-- 👋 Hi, I’m @shanmathiravikumar
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+package com.shan.numbers;
+import java.util.Scanner;
 
-<!---
-shanmathiravikumar/shanmathiravikumar is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+
+
+public class Oddeven {
+	public static void main(String args[]) {
+		int num;
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("Enter number to check if it is odd or even:");
+		num =scanner.nextInt();
+		
+		if(num%2==0) {
+			System.out.println(num +"is even");
+		}
+		else {
+			System.out.println(num + "is odd");
+		}
+
+	}
+	
+}
+
